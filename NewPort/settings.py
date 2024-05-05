@@ -25,9 +25,9 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'django-insecure-f-h4qs_c!+88p@)c_=ca_^p@5$+e2!px7*vwi@7n__pa+&ft$w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['chaimae-aharak.onrender.com','localhost','172.0.0.1']
 
 
 # Application definition
