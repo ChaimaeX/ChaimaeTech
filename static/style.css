@@ -418,7 +418,7 @@ span{
     }
     .home{
         flex-direction: column;
-        min-height: auto;
+        min-height: 100vh;
     }
     .home-content h1{
         font-size: 5rem;
@@ -438,10 +438,18 @@ span{
     }
     .portfolio-container{
         display: flex;
-        flex-wrap: wrap;
-        
+        flex-direction: column;
     }
+    .portfolio-container .portfolio-box {
+        width: 90%;
+        height: 30%;
+    }
+    .portfolio-container img {
+        width: 100%;
+        height: auto;
+      }
 }
+
 @media(max-width: 450px){
     html{
         font-size: 50%;
@@ -451,6 +459,8 @@ span{
         flex-direction: column;
     }
 }
+
+
 @media(max-width: 365px){
     .home-img img{
         width:90vw;
