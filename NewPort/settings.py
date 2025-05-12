@@ -27,8 +27,11 @@ SECRET_KEY = 'django-insecure-f-h4qs_c!+88p@)c_=ca_^p@5$+e2!px7*vwi@7n__pa+&ft$w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['chaimae-aharak.onrender.com','localhost','172.0.0.1']
-
+ALLOWED_HOSTS = [
+    'chaimae-aharak.onrender.com',  # Votre domaine de production (Render)
+    'localhost',                     # Accès local via nom de domaine
+    '127.0.0.1'                     # Accès local via IPv4 (corrigé)
+]
 
 # Application definition
 

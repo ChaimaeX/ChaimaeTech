@@ -235,17 +235,23 @@ span{
     /* margin: 10px; */
     
 } 
-.portfolio-box img{
+/* .portfolio-box img{
   width: 100%; 
   transition: .5s ease;  
    
-} 
-.portfolio-box:hover img{
+}  */
+/* .portfolio-box:hover img{
    transform: scale(1.1);
-} 
+}  */
 .portfolio-container img{
     width: 35vw;
     height: 20vw;
+}
+.portfolio-box img {
+    width: 100%; /* Largeur adaptative */
+    height: 300px; /* Hauteur fixe */
+    object-fit: cover; /* Empêche la déformation */
+    border-radius: 10px; /* Conserve le style arrondi */
 }
 .portfolio-box .portfolio-layer{
     position: absolute;
